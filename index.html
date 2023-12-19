@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <section id="container">
+        <div class="container">
+          <div class="mobile-header">
+            <img src="./images/status bar - black.png" alt="" />
+          </div>
+
+          <!-- individual details -->
+          <div class="details">
+            <div class="main-logo">
+              <img src="./images/Logo1.svg" alt="" />
+            </div>
+            <h1>For Individuals</h1>
+            <p class="large-screen">
+              Start benefiting from the wellness experience. For companies
+              looking on increasing productivity, and improving organization
+              wellness.
+            </p>
+            <p class="mobile-screen">
+              Inspiring wholesome harmony for the mind, body and spirit, for
+              everyone, everywhere.
+            </p>
+          </div>
+
+          <!-- Form section -->
+          <div class="form-container">
+            <form action="">
+              <div class="table">
+                <div class="row">
+                  <div class="col">
+                    <label for="fname">First Name</label><br />
+                    <div class="input-div">
+                      <input
+                        type="text"
+                        id="fname"
+                        placeholder="Tolu"
+                        name="fname"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="lname">Last Name</label><br />
+                    <div class="input-div">
+                      <input
+                        type="text"
+                        id="lname"
+                        placeholder=""
+                        name="lname"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <label for="gender">Gender</label>
+                    <div class="input-div">
+                      <select name="gender" id="gender">
+                        <option>select</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="DD">Date of Birth</label>
+
+                    <div class="input-div date">
+                      <input
+                        type="date"
+                        id="DD"
+                        data-placeholder="select here"
+                        required
+                        aria-required="true"
+                        name="Date"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <label for="weight">Weight(KG)</label>
+                    <div class="input-div">
+                      <input
+                        type="text"
+                        id="weight"
+                        placeholder="Enter Weight"
+                        name="weight"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="height">Height(CM)</label>
+                    <div class="input-div">
+                      <input
+                        type="text"
+                        id="height"
+                        placeholder="Enter height here.."
+                        name="height"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-bottom">
+                <label for="activities">Activity Level</label>
+
+                <div class="wide-input">
+                  <select
+                    aria-multiline="true"
+                    name="activities"
+                    id="activities"
+                  >
+                    <option type="checkbox" value="select here">
+                      select here
+                    </option>
+                    <option type="checkbox" value="option1">Option 1</option>
+                    <option type="checkbox" value="option2">Option 2</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-bottom">
+                <label for="password">Password</label>
+
+                <div class="wide-input">
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    required
+                  />
+                  <div><img src="./images/eyeIcon.svg" alt="" /></div>
+                </div>
+              </div>
+              <input class="submit-btn" type="submit" value="Register" />
+            </form>
+            <div class="footer-text">
+              <p>
+                By clicking submit, you agree to our
+                <a href="#">Terms of Use</a> and our
+                <a href="#">Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
